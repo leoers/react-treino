@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeiroComponente from './componentes/botao'
+import Menu from './componentes/menu'
 
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <PrimeiroComponente valor="Bom dia!" />
+        <Menu />
     </div>
 , elemento)
